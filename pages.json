@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/desktop/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "桌面",
+				"navigationBarBackgroundColor": "#4697ec"
+			}
+		},
+		{
+			"path": "pages/dataanalysis/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "数据分析",
+				"navigationBarBackgroundColor": "#4697ec"
+			}
+		},
+		{
+			"path": "pages/applications/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "功能",
+				"navigationBarBackgroundColor": "#4697ec"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#4697ec"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#4697ec",
+	    "borderStyle": "black",
+	    "backgroundColor": "#FFFFFF",
+	    "list": [{
+	        "pagePath": "pages/desktop/index",
+	        "iconPath": "static/images/tab-bar/desktop.png",
+	        "selectedIconPath": "static/images/tab-bar/desktop-active.png",
+	        "text": "桌面"
+	    }, {
+	        "pagePath": "pages/dataanalysis/index",
+	        "iconPath": "static/images/tab-bar/unit.png",
+	        "selectedIconPath": "static/images/tab-bar/unit-active.png",
+	        "text": "数据分析"
+	    },{
+	        "pagePath": "pages/applications/index",
+	        "iconPath": "static/images/tab-bar/applications.png",
+	        "selectedIconPath": "static/images/tab-bar/applications-active.png",
+	        "text": "功能"
+	    },{
+	        "pagePath": "pages/profile/index",
+	        "iconPath": "static/images/tab-bar/profile.png",
+	        "selectedIconPath": "static/images/tab-bar/profile-active.png",
+	        "text": "个人中心"
+	    }]
+	}
+}
